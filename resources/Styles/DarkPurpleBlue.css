@@ -1,0 +1,112 @@
+.root {
+    -fx-background-color: #241E37; /* Slightly brighter shade of purple for the root */
+}
+
+.button {
+    -fx-background-color: #554B77; /* Slightly brighter shade of purple for the button */
+    -fx-text-fill: #EAEAEA; /* Lighter shade of gray for the text */
+}
+
+.text-input {
+    -fx-background-color: #554B77; /* Slightly brighter shade of purple for the text input */
+    -fx-text-fill: #EAEAEA; /* Lighter shade of gray for the text */
+    -fx-prompt-text-fill: #EAEAEA; /* Color for the prompt text */
+}
+
+.label {
+    -fx-text-fill: #EAEAEA; /* Slightly brighter shade of purple for the label */
+    -fx-prompt-text-fill: #EAEAEA; /* Color for the prompt text */
+}
+
+.table-view {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+    -fx-border-color: transparent; /* Set border color to transparent */
+    -fx-border-width: 1px; /* Set border width to 1px */
+    -fx-text-fill: #EAEAEA; /* Lighter shade of gray for the text */
+}
+
+.table-view .column-header {
+    -fx-text-fill: #EAEAEA; /* Lighter shade of gray for the text */
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+    -fx-border-color: transparent; /* Set border color to transparent */
+    -fx-border-width: 0 0 0 0; /* Set border width to 0 */
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #F0DEF5;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #F0DEF5;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #EAEAEA; /* Lighter shade of gray for the text */
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+    -fx-border-color: transparent; /* Set border color to transparent */
+    -fx-border-width: 0 0 0 0; /* Set border width to 0 */
+}
+
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #554B77; /* Slightly brighter shade of purple for the thumb */
+}
+
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+}
+
+.table-view .scroll-bar:vertical .increment-button,
+.table-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+    -fx-shape: "M4,0 L6,0 L5,3 Z"; /* Set your desired button shape (optional) */
+}
+
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+}
+
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #554B77; /* Slightly brighter shade of purple for the thumb */
+}
+
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+}
+
+.table-view .scroll-bar:horizontal .increment-button,
+.table-view .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+    -fx-shape: "M4,0 L6,0 L5,3 Z"; /* Set your desired button shape (optional) */
+}
+
+.list-view {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+    -fx-border-color: transparent; /* Set border color to transparent */
+    -fx-border-width: 1px; /* Set border width to 1px */
+}
+
+.slider {
+    -fx-background-color: #362B4C; /* Slightly brighter shade for the background */
+}
+
+.slider .thumb {
+    -fx-background-color: #554B77; /* Slightly brighter shade of purple for the thumb */
+}
+
+.slider .track {
+    -fx-background-color: #554B77; /* Slightly brighter shade for the background */
+}
+
+.toggle-button {
+    -fx-background-color: #554B77; /* Slightly brighter shade of purple for the button */
+    -fx-text-fill: #EAEAEA; /* Lighter shade of gray for text */
+}

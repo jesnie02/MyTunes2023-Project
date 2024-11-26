@@ -1,0 +1,100 @@
+.root {
+    -fx-background-color: #212D40;
+}
+
+.button {
+    -fx-background-color: #D66853;
+    -fx-text-fill: #11151C;
+}
+
+.text-input {
+    -fx-background-color: #364156;
+    -fx-text-fill: #D66853;
+    -fx-prompt-text-fill: #D66853;
+}
+
+.label {
+    -fx-text-fill: #D66853;
+    -fx-prompt-text-fill: #D66853;
+}
+
+.table-view {
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-text-fill: #D66853;
+}
+
+.table-view .column-header {
+    -fx-text-fill: #D66853;
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 0 0;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #dca27f;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #dca27f;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #D66853;
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 0 0;
+}
+
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #364156;
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #D66853;
+}
+
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #364156;
+}
+
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #364156;
+}
+
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #D66853;
+}
+
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: #364156;
+}
+
+.list-view {
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+}
+
+.slider {
+    -fx-background-color: #364156;
+}
+
+.slider .thumb {
+    -fx-background-color: #D66853;
+}
+
+.slider .track {
+    -fx-background-color: #D66853;
+}
+
+.toggle-button {
+    -fx-background-color: #D66853;
+    -fx-text-fill: #11151C;
+}

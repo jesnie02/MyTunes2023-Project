@@ -1,0 +1,110 @@
+.root {
+    -fx-background-color: #1F0C21; /* Darker shade */
+}
+
+.button {
+    -fx-background-color: #6A0572; /* Darker shade */
+    -fx-text-fill: #F0DEF5; /* Lighter shade */
+}
+
+.text-input {
+    -fx-background-color: #6A0572; /* Darker shade */
+}
+
+.label {
+    -fx-text-fill: #F0DEF5; /* Lighter shade */
+}
+
+.table-view {
+    -fx-background-color: #3C1451; /* Darker shade */
+    -fx-border-color: #1F0C21; /* Set border color */
+    -fx-border-width: 0.5px; /* Set your desired border width */
+    -fx-text-fill: #F0DEF5; /* Lighter shade */
+}
+
+.table-view .column-header {
+    -fx-border-color: #1F0C21;
+    -fx-border-width: 1px 1px 0 1px;
+    -fx-text-fill: #F0DEF5; /* Lighter shade */
+    -fx-background-color: #3C1451; /* Darker shade */
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #F0DEF5;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #F0DEF5;
+}
+
+.table-view .table-cell {
+    -fx-border-color: #1F0C21;
+    -fx-border-width: 0 1px 0 1px;
+    -fx-background-color: #3C1451; /* Darker shade */
+}
+
+.table-view .table-cell .text {
+    -fx-text-fill: #F0DEF5; /* Lighter shade */
+}
+
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #4A1942; /* Updated color */
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #6A0572;
+}
+
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #4A1942;
+}
+
+.table-view .scroll-bar:vertical .increment-button,
+.table-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #4A1942;
+    -fx-shape: "M4,0 L6,0 L5,3 Z";
+}
+
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #4A1942;
+}
+
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #6A0572;
+}
+
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: #4A1942;
+}
+
+.table-view .scroll-bar:horizontal .increment-button,
+.table-view .scroll-bar:horizontal .decrement-button {
+    -fx-background-color: #4A1942;
+    -fx-shape: "M4,0 L6,0 L5,3 Z";
+}
+
+.list-view {
+    -fx-background-color: #3C1451; /* Darker shade */
+}
+
+.slider {
+    -fx-background-color: #2E1C2B; /* Darker shade */
+}
+
+.slider .thumb {
+    -fx-background-color: #6A0572; /* Lighter shade */
+}
+
+.slider .track {
+    -fx-background-color: #6A0572; /* Lighter shade */
+}
+
+.toggle-button {
+    -fx-background-color: #6A0572; /* Your desired background color for the button */
+    -fx-text-fill: #F0DEF5; /* Text color */
+}

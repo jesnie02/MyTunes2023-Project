@@ -1,0 +1,106 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Light Grey */
+}
+
+.button {
+    -fx-background-color: #808080; /* Medium Grey */
+    -fx-text-fill: #ffffff; /* White text */
+}
+
+.text-input {
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+    -fx-text-fill: #000000; /* Black text */
+}
+
+.label {
+    -fx-text-fill: #333333; /* Dark Grey */
+}
+
+.table-view {
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-text-fill: #000000; /* Black text */
+}
+
+.table-view .column-header {
+    -fx-text-fill: #000000; /* Black text */
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+    -fx-border-color: #808080; /* Medium Grey */
+    -fx-border-width: 0 0 0 0;
+}
+
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #808080;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #808080;
+}
+
+
+.table-view .table-cell {
+    -fx-text-fill: #000000; /* Black text */
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+    -fx-border-color: #808080; /* Medium Grey */
+    -fx-border-width: 0 0 0 0;
+}
+
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #808080; /* Medium Grey */
+}
+
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #808080; /* Medium Grey */
+}
+
+.table-view .scroll-bar:vertical .increment-button,
+.table-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #808080; /* Medium Grey */
+    -fx-shape: "M4,0 L6,0 L5,3 Z";
+}
+
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+}
+
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #808080; /* Medium Grey */
+}
+
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+}
+
+.list-view {
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+}
+
+.slider {
+    -fx-background-color: #d9d9d9; /* Darker Grey */
+}
+
+.slider .thumb {
+    -fx-background-color: #808080; /* Medium Grey */
+}
+
+.slider .track {
+    -fx-background-color: #808080; /* Medium Grey */
+}
+
+.toggle-button {
+    -fx-background-color: #808080; /* Medium Grey */
+    -fx-text-fill: #000000; /* Black text */
+}

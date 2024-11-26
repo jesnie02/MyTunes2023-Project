@@ -1,0 +1,104 @@
+.root {
+    -fx-background-color: #34C6B7; /* An alternate shade of light turquoise */
+}
+
+.button {
+    -fx-background-color: #FFFFFF; /* White */
+    -fx-text-fill: #11151C;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #FFFFFF, #F0F0F0, #E8E8E8, #E0E0E0, #D8D8D8); /* Gradient of whites */
+}
+
+.text-input {
+    -fx-background-color: #36C8B9; /* Turquoise with a hint more green */
+    -fx-text-fill: #35C7B8; /* Light turquoise */
+    -fx-prompt-text-fill: #37C6B8; /* Another shade of light turquoise */
+}
+
+.label {
+    -fx-text-fill: #090a0a; /* Dark turquoise */
+    -fx-prompt-text-fill: #080909; /* Darker turquoise */
+}
+
+.table-view {
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+    -fx-text-fill: #37C9BA; /* Changed to the original turquoise for consistency */
+}
+
+.table-view .column-header {
+    -fx-text-fill: #37C9BA; /* Original turquoise */
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: #38C7B9; /* A slightly lighter turquoise shade for hover */
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: #39C8BA; /* A different turquoise shade for selection */
+}
+
+.table-view .table-cell {
+    -fx-text-fill: #37C9BA; /* Original turquoise */
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+}
+
+.table-view .scroll-bar:vertical {
+    -fx-background-color: #364156;
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #37C9BA; /* Original turquoise */
+}
+
+.table-view .scroll-bar:vertical .track {
+    -fx-background-color: #364156;
+}
+
+.table-view .scroll-bar:horizontal {
+    -fx-background-color: #364156;
+}
+
+.table-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #37C9BA; /* Original turquoise */
+}
+
+.table-view .scroll-bar:horizontal .track {
+    -fx-background-color: #364156;
+}
+
+.list-view {
+    -fx-background-color: #364156;
+    -fx-border-color: transparent;
+    -fx-border-width: 1px;
+}
+
+.slider {
+    -fx-background-color: #364156; /* White */
+}
+
+.slider .thumb {
+    -fx-background-color: #FFFFFF; /* White */
+}
+
+.slider .track {
+    -fx-background-color: #D0D0D0; /* Slightly darker shade for the track for contrast */
+}
+
+.toggle-button {
+    -fx-background-color: #37C9BA; /* Original turquoise */
+    -fx-text-fill: #11151C;
+}
